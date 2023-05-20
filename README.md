@@ -8,6 +8,7 @@ This project was created as an accessory to [Keekeen's MX Switch Break-in Machin
 # Materials needed
 1. Raspberry Pi (with access to GPIO)
 2. Raspbian OS (pre-loaded with Python and RPi.GPIO library)
+3. If you're here from this video
 
 # How to use
 
