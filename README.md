@@ -8,7 +8,7 @@ This project was created as an accessory to [Keekeen's MX Switch Break-in Machin
 # Materials needed
 1. Raspberry Pi (with access to GPIO)
 2. Raspbian OS (pre-loaded with Python and RPi.GPIO library)
-3. If you're here from this video
+3. If you're here from [this video](https://www.youtube.com/watch?v=KD2p3KXpSlM) then you will need to wire one switch per machine to a GPIO pin (and GND). This can easily be done using an Amoeba Royale PCB, which can be found on Etsy and other websites. You will also need one hotswap socket per PCB. Diodes and resistors are not required.
 
 # How to use
 
