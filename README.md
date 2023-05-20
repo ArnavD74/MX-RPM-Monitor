@@ -1,4 +1,4 @@
-# -RPM-Monitor
+# MX-RPM-Monitor
 A very simple python program to monitor a motor's cycle count and RPM/RPH. Theoretically will work for any two-pin motor with a switch connected with a "switch to ground" or "active low" setup.
 
 Please be advised that any potential damage incurred to your devices, be it caused by the code presented herein or resulting from electrical issues, shall be solely the responsibility of the user. Kindly exercise caution and ensure proper understanding of the code and hardware connections before implementation, as I, the author, absolve myself from any liabilities arising from such occurrences.
