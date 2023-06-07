@@ -32,15 +32,15 @@ def home():
         </script>
     </head>
     <body>
-        <h1>Button 0 Press Count: <span id="actuations0">0</span></h1>
-        <h1>Actuations per Minute: <span id="actuations_per_min0">0</span></h1>
-        <h1>Actuations per Hour: <span id="actuations_per_hr0">0</span></h1>
-        <button id="reset-button0">Reset</button>
+        <h1>Motor 0 Actuation Total: <span id="actuations0">0</span></h1>
+        <h1>RPM: <span id="actuations_per_min0">0</span></h1>
+        <h1>RPH: <span id="actuations_per_hr0">0</span></h1>
+        <button id="reset-button0">Reset All</button>
 
-        <h1>Button 1 Press Count: <span id="actuations1">0</span></h1>
-        <h1>Actuations per Minute: <span id="actuations_per_min1">0</span></h1>
-        <h1>Actuations per Hour: <span id="actuations_per_hr1">0</span></h1>
-        <button id="reset-button1">Reset</button>
+        <h1>Motor 1 Actuation Total: <span id="actuations1">0</span></h1>
+        <h1>RPM: <span id="actuations_per_min1">0</span></h1>
+        <h1>RPH: <span id="actuations_per_hr1">0</span></h1>
+        <button id="reset-button1">Reset All</button>
     </body>
 </html>
     """)

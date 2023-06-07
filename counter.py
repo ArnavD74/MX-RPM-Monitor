@@ -23,7 +23,7 @@ def reset_count(button_index):
 def button_callback(channel):
     button_index = button_pins.index(channel)
     button_counts[button_index] += 1
-    print("Button {} Pressed! Count: {}".format(button_index, button_counts[button_index]))
+    print("Machine {} Pressed! Count: {}".format(button_index, button_counts[button_index]))
     with open('count{}.csv'.format(button_index), 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(["timestamp", "actuations", "actuations/min", "actuations/hr"])
