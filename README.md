@@ -23,3 +23,11 @@ For those following [this instructional video](https://www.youtube.com/watch?v=K
 4. In a separate terminal, run `server.py`.
 5. Utilize [`screen`](https://linuxize.com/post/how-to-use-linux-screen/) to manage sessions efficiently.
 6. Access the Web UI by navigating to the Pi's IP address and appending port 5000 in a web browser on a different device (e.g., `http://<Pi-IP>:5000`).
+
+## Examples
+Web interface:
+<br>![](https://raw.githubusercontent.com/ArnavD74/MX-RPM-Monitor/main/example.png)
+
+<br> Machine setup:
+![](https://raw.githubusercontent.com/ArnavD74/MX-RPM-Monitor/main/photo.jpg)
+<i>polishing a set of vintage cherry mx blacks :)</i>
