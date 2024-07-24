@@ -7,14 +7,13 @@ import os
 GPIO.setmode(GPIO.BOARD)
 
 # Define two button pins
-button_pins = [7, 13, 33]
-
+button_pins = [7, 13]
 for button_pin in button_pins:
     GPIO.setup(button_pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 # Define separate counts and start times for each button
-button_counts = [0, 0, 0]
-start_times = [time.time(), time.time(), time.time()]
+button_counts = [0, 0]
+start_times = [time.time(), time.time()]
 
 def reset_count(button_index):
     global button_counts, start_times

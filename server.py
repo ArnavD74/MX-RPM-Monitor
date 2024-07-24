@@ -13,14 +13,14 @@ def home():
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
-                for (let i = 0; i < 3; i++) {
+                for (let i = 0; i < 2; i++) {
                     $("#reset-button" + i).click(function(){
                         $.post("/reset/" + i);
                     });
                 }
                 setInterval(fetchCounts, 500);
                 function fetchCounts(){
-                    for (let i = 0; i < 3; i++) {
+                    for (let i = 0; i < 2; i++) {
                         $.get("/count/" + i, function(data){
                             $("#actuations" + i).text(data.actuations);
                             $("#actuations_per_min" + i).text(data.actuations_per_min);
@@ -32,19 +32,14 @@ def home():
         </script>
     </head>
     <body>
-        <h1>Machine 0: <span id="actuations0">0</span></h1>
-        <h1>RPM 0: <span id="actuations_per_min0">0</span></h1>
-        <h1>RPH 0: <span id="actuations_per_hr0">0</span></h1>
+        <h1>Motor 0 Actuation Total: <span id="actuations0">0</span></h1>
+        <h1>RPM: <span id="actuations_per_min0">0</span></h1>
+        <h1>RPH: <span id="actuations_per_hr0">0</span></h1>
         <button id="reset-button0">Reset All</button>
 
-        <h1>Machine 1: <span id="actuations1">0</span></h1>
-        <h1>RPM 1: <span id="actuations_per_min1">0</span></h1>
-        <h1>RPH 1: <span id="actuations_per_hr1">0</span></h1>
-        <button id="reset-button1">Reset All</button>
-                                  
-        <h1>Machine 2: <span id="actuations2">0</span></h1>
-        <h1>RPM 2: <span id="actuations_per_min2">0</span></h1>
-        <h1>RPH 2: <span id="actuations_per_hr2">0</span></h1>
+        <h1>Motor 1 Actuation Total: <span id="actuations1">0</span></h1>
+        <h1>RPM: <span id="actuations_per_min1">0</span></h1>
+        <h1>RPH: <span id="actuations_per_hr1">0</span></h1>
         <button id="reset-button1">Reset All</button>
     </body>
 </html>
